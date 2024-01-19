@@ -6,119 +6,119 @@
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 17.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 17.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning']
       },
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 18.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 18.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 19.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 19.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 4.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 4.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning']
       },
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 5.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 5.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 6.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 6.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 7.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 7.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning']
       },
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 8.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 8.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 9.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 9.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 10.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 10.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning']
       },
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 21.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 21.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 12.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 12.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 13.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 13.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 14.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 14.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 15.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 15.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 16.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 16.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction']
       },
       {
         name: 'Jhonatane smith',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 79.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 79.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
       },

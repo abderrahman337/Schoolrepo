@@ -6,7 +6,7 @@
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 70.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 70.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -15,7 +15,7 @@
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 71.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 71.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -25,7 +25,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 72.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 72.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -34,7 +34,7 @@
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 73.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 73.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -43,7 +43,7 @@
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 74.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 74.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -52,7 +52,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 75.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 75.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -61,7 +61,7 @@
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 88.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 88.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -70,7 +70,7 @@
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 77.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 77.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -79,7 +79,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 79.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 79.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -88,7 +88,7 @@
       {
         name: 'Jane Doe',
         title: 'Associate Professor',
-        imageUrl: 'images/Ellipse 80.png', // Path to Jane's profile image
+        imageUrl: '/images/Ellipse 80.png', // Path to Jane's profile image
         email: 'jane.doe@university.edu',
         expertise: ['Data Science', 'Machine Learning'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -97,7 +97,7 @@
       {
         name: 'John Smith',
         title: 'Assistant Professor',
-        imageUrl: 'images/Ellipse 81.png', // Path to John's profile image
+        imageUrl: '/images/Ellipse 81.png', // Path to John's profile image
         email: 'john.smith@university.edu',
         expertise: ['Network Security', 'Cryptography'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -106,7 +106,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 82.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 82.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -115,7 +115,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 101.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 101.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -124,7 +124,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 102.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 102.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -133,7 +133,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 104.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 104.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -142,7 +142,7 @@
       {
         name: 'Alice Johnson',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse 86.png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse 86.png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']
@@ -151,7 +151,7 @@
       {
         name: 'Jhonatane smith',
         title: 'Lecturer',
-        imageUrl: 'images/Ellipse .png', // Path to Alice's profile image
+        imageUrl: '/images/Ellipse .png', // Path to Alice's profile image
         email: 'alice.johnson@university.edu',
         expertise: ['User Experience Design', 'Human-Computer Interaction'],
         adresse :['Manning Hall, SILS Library','Monday - Friday 8 a.m. - 5 p.m.']

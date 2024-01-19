@@ -1,26 +1,26 @@
 const contentData = [
     {
-      imageUrl: 'images/Rectangle 1.png',
+      imageUrl: '/images/Rectangle 1.png',
       description: 'Research In Action & Equity in the Making: How the EITM Lab Promotes Inclusivity in Public Makerspaces '
     },
     {
-      imageUrl: 'images/Rectangle 2.png',
+      imageUrl: '/images/Rectangle 2.png',
       description: 'Research In Action & Equity in the Making: How the EITM Lab Promotes Inclusivity in Public Makerspaces'
     },
     {
-        imageUrl: 'images/Rectangle 3.png',
+        imageUrl: '/images/Rectangle 3.png',
         description: 'Research In Action & Equity in the Making: How the EITM Lab Promotes Inclusivity in Public Makerspaces'
     },
     {
-        imageUrl: 'images/Rectangle 39.png',
+        imageUrl: '/images/Rectangle 39.png',
         description: 'Research In Action & Equity in the Making: How the EITM Lab Promotes Inclusivity in Public Makerspaces'
     },
     {
-        imageUrl: 'images/Rectangle 40.png',
+        imageUrl: '/images/Rectangle 40.png',
         description: 'Research In Action & Equity in the Making: How the EITM Lab Promotes Inclusivity in Public Makerspaces'
     },
     {
-        imageUrl: 'images/Rectangle 41.png',
+        imageUrl: '/images/Rectangle 41.png',
         description: 'Research In Action & Equity in the Making: How the EITM Lab Promotes Inclusivity in Public Makerspaces'
     },
     // Add more content objects as needed
