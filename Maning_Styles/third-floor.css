@@ -1,0 +1,207 @@
+*{
+    font-family: 'ITC Franklin Gothic Pro';
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('./ITC\ Franklin\ Gothic\ Book/') format('otf'),
+         url('./ITC\ Franklin\ Gothic\ Medium/') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'ITC Franklin Gothic Pro', sans-serif; 
+  }
+  /* *********** Header *******************/
+   .curved-header {
+    background-color: var(--color-blue);
+    height: 150px;
+    position: relative;
+    border-bottom-left-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .header-content {
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+  .header-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px; 
+  }
+  
+  .sub-header-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px; 
+  }
+  
+  .curved-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; 
+    background-color:var(--color-blue);
+  }
+  
+  
+  .main-container {
+    min-height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white); 
+  }
+
+  .header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    position: relative; 
+  }
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 70vh;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.button-container {
+    flex-basis: 150px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.floor-button {
+    background-color: var(--color-blueciel);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition:  0.3s ease-in-out;
+     box-shadow: 0px 4px 4px 0px #00000040;
+    
+}
+
+.floor-button:hover {
+    background-color: var(--color-blue);
+}
+
+.map-container {
+    flex-grow: 1; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-content {
+    display: none; 
+    width: 732px; 
+    height: 416px; 
+    
+}
+
+.map-content.active {
+    display: block; 
+}
+
+.map-content img {
+    width: 732px;
+    height: 416px;
+    top: 174px;
+    left: 281px;
+
+}
+  
+  /*******Footer*************/
+  .footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: var(--color-blueciel); 
+    color: white;
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .buttons-container a.button {
+    background-color: var(--color-white); 
+    color: var(--color-blueciel);
+    border: none;
+    border-radius: 5px; 
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9); 
+    text-decoration: none; 
+    margin: 10px;
+  }
+  
+  .buttons-container img.logo {
+    max-width: 30%; 
+    height: auto; 
+    margin-right: auto; 
+  }
+  
+  .links {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  a.button:hover {
+    background-color: #151515; 
+  }
+  

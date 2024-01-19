@@ -1,0 +1,333 @@
+body, html {
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+  }
+  *{
+    font-family: 'ITC Franklin Gothic Pro';
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('./ITC\ Franklin\ Gothic\ Book/') format('otf'),
+         url('./ITC\ Franklin\ Gothic\ Medium/') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 100%;
+  }
+
+  /* Style for the left side */
+  .left-side {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex: 3;
+    padding: 40px;
+    background-color: var(--color-white);
+    
+  }
+  
+  .image-text-container {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 50px; 
+    color: #686868;
+    font-family: 'ITC Franklin Gothic LT Pro';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+  }
+  .side-image {
+    width: 195px;
+    height: 137px;
+    top: 85px;
+    margin-right: 20px;
+    left: 43px;
+
+  }
+  
+  .side-text {
+    flex: 1; 
+  }
+  
+
+  .right-side {
+    max-width:50%;
+    flex: 1;
+    background-color: var(--color-blueciel); 
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Button styles */
+  .info-button {
+    padding: 10px 20px;
+    background-color: var(--color-blueciel); 
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .right-side .logo{
+    align-items: center;
+    text-align: center;
+  }
+  .right-side .logo img{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    font-size:  40px;
+    margin-bottom: 10rem;
+    top: 0;
+  }
+  .right-side h1{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 40px;
+
+  }
+  .Toucher {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin-left: 50px;
+  }
+  .Toucher {
+    list-style: none;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border-radius:5px ;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    list-style: none;
+    letter-spacing: 0em;
+    text-shadow: 1px 1px 5px black;
+    box-shadow:1px 1px 5px black;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    width: 394px;
+    height: 100px;
+
+  }
+  .Toucher img{
+    margin-right: 10px; 
+    vertical-align: middle; 
+    text-align: center;
+  }
+  /******changes start here***********/
+  .right-side {
+    max-width:50%;
+    flex: 1;
+    background-color: var(--color-blueciel); 
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Right side content styling */
+  .content {
+    text-align: center;
+    
+  }
+  .content h1 {
+    margin-bottom: 5rem;
+  }
+
+  .button {
+    background-color:#FFFFFF ; /* Light blue background */
+    color: var(--color-blueciel);
+    font-size:  13px;
+    font-weight: 600;
+    line-height: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Image styling */
+  .image-group img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* Text styling next to images */
+  .image-group .text {
+    margin-bottom: 20px;
+  }
+  
+  /****Design **********/ 
+
+  .interactive-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-blue); 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional */
+    cursor: pointer; 
+    max-width: 300px; 
+    margin-bottom: 5rem;
+  }
+  
+  .button-icon {
+    width: 50px; 
+    margin-right: 15px; 
+  }
+  
+  .button-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    white-space: nowrap; 
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .buttons-container a.button {
+    background-color: var(--color-white); 
+    color: var(--color-blueciel);
+    border-radius: 5px; 
+    border: 1px solid #FFFFFF;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9); 
+    text-decoration: none; 
+    margin: 10px; 
+  }
+  
+  .links {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  a.button:hover {
+    background-color: #151515; 
+  }
+  /* Additional responsiveness */
+  @media (max-width: 768px) {
+    .interactive-button {
+      padding: 10px;
+      flex-direction: column; 
+    }
+  
+    .button-text {
+      font-size: 18px; 
+    }
+  
+    .button-icon {
+      margin-bottom: 10px;
+    }
+  }
+  
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    max-width: 100%;
+    flex: none;
+  }
+
+  .image-text-container {
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+
+  .side-image {
+    width: 100%; 
+    margin-right: 0;
+    margin-bottom: 10px; 
+  }
+
+  .right-side .logo img {
+    margin-bottom: 5rem; 
+  }
+
+  .right-side h1 {
+    margin-bottom: 5rem;
+    font-size: 30px; 
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .image-text-container {
+    align-items: center;
+  }
+
+  .side-text {
+    text-align: center; 
+  }
+ 
+
+  .right-side .logo img {
+    margin-top: 10px;
+  
+    margin-bottom: 3rem; 
+  }
+
+  .right-side h1 {
+    margin-bottom: 3rem;
+    font-size: 24px; 
+  }
+
+  .Toucher img {
+    width: 24px; 
+    height: 24px;
+  }
+}
+

@@ -1,0 +1,188 @@
+*{
+    font-family: 'ITC Franklin Gothic Pro';
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('path-to-your-font-files/ITCFranklinGothicPro.woff2') format('woff2'),
+         url('path-to-your-font-files/ITCFranklinGothicPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  max-width: 100%;
+}
+
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+.profile-detail {
+    font-family: Arial, sans-serif; 
+    color: #333; 
+  }
+  
+  .curved-header {
+    background-color: var(--color-blue); 
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom-left-radius: 50% ;
+    border-bottom-right-radius: 50% ;
+    margin-bottom: 30px;
+  }
+  .header-text {
+    position: relative;
+    color: white; 
+    font-size: 24px; 
+    font-weight: 800;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+ /************body *******************/
+ .profile-card {
+  width: 80%; 
+  max-width: 640px; 
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.profile-picture {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%;
+  border: 5px solid #fff; 
+  background-color: #fff;
+  position: absolute;
+  top: -75px; 
+}
+
+.profile-info {
+  margin-top: 80px; 
+}
+
+.profile-info h1 {
+  margin: 10px 0;
+  font-size: 22px; /* Adjust font size as needed */
+  color: #000; /* Adjust font color as needed */
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #666; /* Adjust font color as needed */
+}
+
+.profile-info a {
+  color: var(--color-blue); /* Adjust link color as needed */
+  /* text-decoration: none; */
+}
+
+.profile-body {
+  margin-top: 20px;
+  align-items: center;
+}
+
+.profile-body h2 {
+  font-size: 18px; /* Adjust font size as needed */
+  color: #000; /* Adjust font color as needed */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#profile-expertise {
+  color: #333; /* Adjust font color as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: center;
+}
+#profile-adresse{
+  color: #333; /* Adjust font color as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: left;
+  text-align: center;
+}
+
+/*************BODY *******************/
+  
+  .footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: var(--color-blueciel); 
+    color: white;
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .buttons-container a.button {
+    background-color: var(--color-white); 
+    color: var(--color-blueciel);
+    border: none;
+    border-radius: 5px; 
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: 700;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9); 
+    text-decoration: none; 
+    margin: 10px;
+  }
+  
+  .buttons-container img.logo {
+    max-width: 30%; 
+    height: auto; 
+    margin-right: auto; 
+  }
+  
+  .links {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  a.button:hover {
+    background-color: #151515; 
+  }
+  
+  /* CSS Code */
+  .detail-card {
+    text-align: center;
+    /* Add additional styling according to your design */
+  }
+  
+  .detail-image {
+    width: 150px; /* Adjust to your design */
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    /* Add additional styling according to your design */
+  }
+
+  

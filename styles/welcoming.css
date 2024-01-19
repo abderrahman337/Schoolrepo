@@ -1,0 +1,192 @@
+*{
+    font-family: 'ITC Franklin Gothic Pro';
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('./ITC\ Franklin\ Gothic\ Book/') format('otf'),
+         url('./ITC\ Franklin\ Gothic\ Medium/') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 110vh;
+  }
+  .curved-header {
+    background-color: #13294B; 
+    height: 150px; 
+    position: relative;
+    border-bottom-left-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 10px 0 10px;
+  }
+
+  .curved-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; 
+    background-color: var(--color-blue); 
+  }
+
+  .header-text {
+    position: relative;
+    color: white; 
+    font-size: 24px; 
+    font-weight: 800;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  
+  .main-container {
+    min-height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white); 
+  }
+
+  .header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    position: relative; 
+  }
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  .buttons-container {
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+
+  }
+
+  .buttons-container  a {
+    background-color: var(--color-blueciel); /* Dark blue color */
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    border: 2px solid black;
+    padding: 20px 40px;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: uppercase; 
+    margin: 20px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px var(--color-black);
+    box-shadow: 4px 4px 4px 0px #00000040;
+
+
+  }
+
+  .button:hover {
+    background-color: #151515; 
+  }
+
+  .footer {
+    position: relative; 
+    width: 100%;
+    text-align: left; 
+    padding: 20px; 
+    background-color: var(--color-blueciel); 
+    color: white;
+  }
+  
+  .logo {
+    max-width: 30%; 
+    align-items: start;
+    justify-content: left;
+    height: auto; 
+    margin: 0 auto; 
+  }
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768px */
+    .curved-header {
+      height: 100px;
+    }
+    
+    .header-text {
+      font-size: 20px;
+    }
+    
+    .main-container {
+      min-height: 50%;
+    }
+    
+    .buttons-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20%;
+      margin-bottom: 20%;
+    }
+    
+    .buttons-container a {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      background-color: var(--color-blueciel);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      border: 2px solid black;
+      cursor: pointer;
+      margin: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 5px var(--color-blue);
+      box-shadow: 4px 4px 4px 0px #00000040;
+
+    }
+    
+    .footer {
+      text-align: center;
+    }
+    
+    .logo {
+      max-width: 50%;
+    }
+  }
+  
+  
+  

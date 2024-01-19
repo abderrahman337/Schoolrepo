@@ -1,0 +1,327 @@
+*{
+    font-family: 'ITC Franklin Gothic Pro';
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('path-to-your-font-files/ITCFranklinGothicPro.woff2') format('woff2'),
+         url('path-to-your-font-files/ITCFranklinGothicPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    font-family: 'ITC Franklin Gothic Pro'; 
+  }
+  .curved-header {
+    background-color: var(--color-blue);
+    height: 150px;
+    position: relative;
+    border-bottom-left-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .header-content {
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+  }
+  .header-text {
+    position: relative;
+    color: white; 
+    font-size: 24px; 
+    font-weight: 800;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  .sub-header-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px; 
+  }
+  
+  .curved-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; 
+    background-color:var(--color-blue);
+  }
+    
+  .main-container {
+    min-height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white); 
+  }
+
+  .header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    position: relative; 
+  }
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: var(--color-blueciel); 
+    color: white;
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .buttons-container a.button {
+    background-color: var(--color-white); 
+    color: var(--color-blueciel);
+    border: none;
+    border-radius: 5px; 
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9); 
+    text-decoration: none; 
+    margin: 10px;
+  }
+  
+  .buttons-container img.logo {
+    max-width: 30%; 
+    height: auto; 
+    margin-right: auto; 
+  }
+  
+  .links {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  a.button:hover {
+    background-color: #151515; 
+   
+  }
+  .fac-title{
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    color: var(--color-white);
+  }
+  .button-container {
+    background-color: var(--color-blue); 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    display: inline-flex;
+    align-items: center; 
+    color: white; 
+    cursor: pointer; 
+  }
+
+  .button-icon {
+    background-color: white;
+    color: var(--color-blue); 
+    padding: 5px;
+    margin-right: 10px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+ 
+  .button-text {
+    font-size: 14px; 
+  }
+
+  .button-container:hover {
+    background-color: var(--color-blue); 
+  }
+  .profile-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    white-space: nowrap;
+  }
+
+  .profile {
+    margin-right: 20px; 
+    text-align: center;
+    display: inline-block;
+  }
+
+  .profile img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    border: 3px solid var(--color-blue); 
+    object-fit: cover;
+  }
+
+  .profile-name {
+    font-size: 14px;
+    color: var(--color-blue); 
+    margin-top: 8px;
+  }
+
+  .profile-title {
+    font-size: 12px;
+    color: #666; 
+  }
+  .profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px;
+  }
+
+  .profile-card {
+    text-align: center;
+    width: 150px; 
+  }
+
+  .profile-card img {
+    width: 100%; 
+    height: auto;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  .profile-card img:hover{
+    border: 2px solid var(--color-blueciel);
+  }
+
+  .profile-name {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .profile-title {
+    font-size: 14px;
+    color: #555;
+  }
+  .directory-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .profile-card {
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+  }
+
+  .profile-card img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .detail-container {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column; 
+    }
+  
+    .buttons-container {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+    .button-container,
+    .buttons-container {
+    flex-direction: row;
+    justify-content: center;
+    }
+  
+    .buttons-container img.logo {
+      margin-right: 0; 
+    }
+    .logo {
+      max-width: 50%; 
+    }
+    .profile-container, .profiles-container {
+      justify-content: space-around;
+  }
+  
+    .profile, .profile-card {
+        width: 200px;  
+    }
+  }
+  /* Large desktops and TVs */
+@media (min-width: 1200px) {
+.header-text {
+font-size: 32px; 
+}
+
+.sub-header-text {
+    font-size: 20px; 
+}
+
+.button-container, .buttons-container {
+    padding:20px 40px; 
+    gap: 30px; 
+
+}
+}
+
+  

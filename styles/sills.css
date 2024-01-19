@@ -1,0 +1,210 @@
+*{
+    font-family: 'ITC Franklin Gothic Pro', sans-serif;
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('path-to-your-font-files/ITCFranklinGothicPro.woff2') format('woff2'),
+         url('path-to-your-font-files/ITCFranklinGothicPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    font-family: 'ITC Franklin Gothic Pro', sans-serif; 
+  }
+  .curved-header {
+    background-color: #13294B; 
+    height: 150px; 
+    position: relative;
+    border-bottom-left-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ 
+  }
+
+  .curved-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; 
+    background-color: var(--color-blue); 
+  }
+
+  .header-text {
+    position: relative;
+    color: white; 
+    font-size: 24px; 
+    font-weight: 800;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  
+  .main-container {
+    min-height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white); 
+  }
+
+  .header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    position: relative; 
+  }
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: var(--color-blueciel); 
+    color: white;
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .buttons-container a.button {
+    background-color: var(--color-white); 
+    color: var(--color-blueciel);
+    border: none;
+    border-radius: 5px; 
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: 700;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9); 
+    text-decoration: none; 
+    margin: 10px;
+  }
+  
+  .buttons-container img.logo {
+    max-width: 30%; 
+    height: auto; 
+    margin-right: auto; 
+  }
+  
+  .links {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  a.button:hover {
+    background-color: #151515; 
+  }
+  
+
+
+  .fac-title{
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    color: var(--color-white);
+  }
+  .button-container {
+    background-color: var(--color-blue); 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    display: inline-flex;
+    align-items: center; 
+    color: white; 
+    cursor: pointer; 
+  }
+
+  .button-icon {
+    background-color: white;
+    color: var(--color-blue); 
+    padding: 5px;
+    margin-right: 10px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+ 
+  .button-text {
+    font-size: 14px; 
+  }
+
+  .button-container:hover {
+    background-color: var(--color-blue); 
+  }
+
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+  gap: 80px; /* Space between items */
+  padding: 20px;
+  margin: 30px;
+}
+
+.content-item {
+  background: var(--color-white); 
+  border: 1px solid #CCCCCC; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+.content-item img {
+  width: 100%;
+  display: block;
+}
+
+.description {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600; 
+  color: #666; 
+  text-align: left; 
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1024px) {
+  .content-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    grid-template-columns: 1fr; /* One column on very small screens */
+  }
+}

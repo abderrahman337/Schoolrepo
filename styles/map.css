@@ -1,0 +1,163 @@
+
+*{
+    font-family: 'ITC Franklin Gothic Pro';
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+  @font-face {
+    font-family: 'ITC Franklin Gothic Pro';
+    src: url('./ITC\ Franklin\ Gothic\ Book/') format('otf'),
+         url('./ITC\ Franklin\ Gothic\ Medium/') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  :root{
+    --color-black : #151515;
+    --color-blueciel: #4B9CD3;
+    --color-blue:#13294B;
+    --color-gray:#F8F8F8;
+    --color-white: #FFFFFF;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'ITC Franklin Gothic Pro', sans-serif; 
+  }
+  .curved-header {
+    background-color: var(--color-blue); 
+    height: 150px; 
+    position: relative;
+    border-bottom-left-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 15%;
+ 
+  }
+
+  .curved-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; 
+    background-color: var(--color-blue); 
+  }
+
+  .header-text {
+    position: relative;
+    color: white; 
+    font-size: 24px; 
+    font-weight: 800;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+.buttons-container {
+    display: flex; 
+    justify-content: center; 
+  }
+.map-button {
+  display: flex;
+  background-color: var(--color-blueciel); 
+  color: white;
+  border: none;
+  padding: 30px 35px;
+  margin: 10px;
+  border-radius: 5px; 
+  font-size: 20px; 
+  font-weight: 600;
+  line-height: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer; 
+  transition: all 0.3s; 
+  text-transform: uppercase;
+ 
+}
+
+.map-button:hover {
+  background-color: var(--color-blue); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: var(--color-blueciel); 
+    color: white;
+    margin-top: 15%;
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    padding-right: 20px; 
+  }
+  
+  .buttons-container a.button {
+    background-color: var(--color-white); 
+    color: var(--color-blueciel);
+    border: none;
+    border-radius: 5px; 
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9); 
+    text-decoration: none; 
+    margin: 10px;
+  }
+  
+  .buttons-container img.logo {
+    max-width: 30%; 
+    height: auto; 
+    margin-right: auto; 
+  }
+  
+  .links {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  a.button:hover {
+    background-color: #151515; 
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column; 
+    }
+  
+    .buttons-container {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .buttons-container img.logo {
+      margin-right: 0; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 50%; 
+    }
+  }
+  
